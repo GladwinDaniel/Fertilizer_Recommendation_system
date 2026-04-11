@@ -135,20 +135,4 @@ streamlit run temporal_spatial_dashboard.py --server.port 8501
 - Prediction with confidence ranking and suitability narrative
 - Model accuracy graph in UI
 
-## 9. Current Project Scope Cleanup
 
-The repository has been cleaned to focus on the active deployment pipeline.
-Unused legacy folders were removed from active scope:
-- `research_paper_code`
-- `big_data_methods`
-- `traditional_ml`
-
-This keeps the project centered on production dashboard + artifact workflow.
-
-## 10. Recommended Next Steps
-
-1. Add full evaluation metrics to artifact (`precision`, `recall`, `macro/weighted F1`, confusion matrix).
-2. Add experiment tracking metadata (dataset version, split seed, timestamp, feature version).
-3. Integrate additional contextual datasets directly into the production feature engineering path.
-4. Add periodic retraining and model drift checks.
-5. Add CI checks for artifact existence and dashboard startup.
