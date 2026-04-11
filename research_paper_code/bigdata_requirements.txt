@@ -1,5 +1,0 @@
-pyspark
-pandas
-tensorflow
-requests
-plotly
